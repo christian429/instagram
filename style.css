@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo  {
+    width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.logo h1{
+    font-family: satisfy;
+    font-size: 50px;
+}
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2b77d6;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+    margin: 0 10px;
+}
+
+.fb-login {
+    background-color: #4267B2;
+    margin-top: 0;
+}
+
+.fb-login:hover {
+    background-color: #3b5a9a;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #00376b;
+    text-decoration: none;
+}
+
+.signup-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+}
+
+.signup-box p {
+    font-size: 14px;
+}
+
+.signup-box a {
+    color: #3897f0;
+    text-decoration: none;
+}
+.last {
+    height: 100px;
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.micro {
+    height: 50%;
+    width: 40%;
+    background-color: black;
+    border: 5px;
+    cursor: pointer;
+}
+.micro img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.play {
+    background-color: black;
+    height: 50%;
+    width: 40%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.play img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
